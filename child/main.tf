@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "Addresscloud"
+    organization = "<TFC_ORG>"
 
     workspaces {
       name = "tfe-test-child"
